@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/instrucciones"
+        android:title="@string/instrucciones" />
+    <item
+        android:id="@+id/comenzar"
+        android:title="@string/comenzar_juego" />
+    <item
+        android:id="@+id/configuracion"
+        android:icon="@drawable/bomb1"
+        android:title="@string/configuracion"
+        app:showAsAction="ifRoom" />
+</menu>

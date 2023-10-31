@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Buscaminas</string>
+    <string name="instrucciones">Instrucciones</string>
+    <string name="comenzar_juego">Comenzar Juego</string>
+    <string name="configuracion">Configuracion</string>
+    <string name="TituloInstrucciones">Instrucciones</string>
+    <string name="CuerpoInstrucciones">
+        El juego consiste en despejar todas las casillas de una pantalla que no oculten una mina.
+        Algunas casillas tienen un número, el cual indica la cantidad de minas que hay en las casillas circundantes. Así, si una casilla tiene el número 3, significa que de las ocho casillas que hay alrededor (si no es en una esquina o borde) hay 3 con minas y 5 sin minas. Si se descubre una casilla sin número indica que ninguna de las casillas vecinas tiene mina y éstas se descubren automáticamente.
+        Si se descubre una casilla con una mina se pierde la partida.
+        Se puede poner una marca en las casillas que el jugador piensa que hay minas para ayudar a descubrir las que están cerca.
+    </string>
+    <string name="ponerbomba">PonerBomba</string>
+    <string-array name="bombas">
+        <item>Bomba Normal</item>
+        <item>Bomba gorda</item>
+        <item>Dinamita</item>
+        <item>Granada</item>
+        <item>Mina naval</item>
+        <item>Cocktel molotov</item>
+    </string-array>
+</resources>
